@@ -1,16 +1,19 @@
 const express = require('express');
 const app = express();
 require('./db/mongoDBConnection');
+// require('./db/mysqlDBConnection');
 
-const customerRouter = require('./routers/customerRouter');
+const generateRouter = require('./routers/randomGenerator');
+const analizRouter = require('./routers/sehirBazliAnaliz');
+
 app.use(express.json());
 
 app.get('/', (req, res)=>{
     res.send("Home Dizinine Hoş Geldiniz..");
 });
 
-app.use('/customer', customerRouter);
-
+app.use('/generate', generateRouter);
+app.use('/analiz', analizRouter);
 
 
 
