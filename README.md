@@ -36,7 +36,7 @@ npm i
 node app.js
 ```
 
-#### <li> Postman veya Benzeri Bir Post İsteği Gönderbileceğiniz Uygulamayı Açın ve Aşağıdaki Linke {musteriAdet} & {sepetAdet}  Parametreleriyle POST İsteğinde Bulunun</li>
+#### <li> Postman veya Benzeri Bir POST İsteği Gönderbileceğiniz Uygulamayı Açın ve Aşağıdaki Linke {musteriAdet} & {sepetAdet}  Parametreleriyle POST İsteğinde Bulunun</li>
 ```
 http://localhost:8000/generate?musteriAdet=#&sepetAdet=#
 
