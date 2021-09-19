@@ -58,3 +58,6 @@ http://localhost:8000/analiz
 <br>
 
 ![Screenshot_8](https://user-images.githubusercontent.com/61154446/133309690-46abf428-d399-482a-97aa-0bee75f2bdd6.png)
+
+<div align="center"> <b> Thanks for Visiting My Project ツ </b> </div>
+
